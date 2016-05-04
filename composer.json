@@ -1,8 +1,9 @@
 {
   "name": "garrinar/tools",
-  "description": "Some useful helpers",
+  "description": "Collection of useful tools for web development",
+  "license": "MIT",
+  "type": "metapackage",
   "minimum-stability": "stable",
-  "license": "",
   "authors": [
     {
       "name": "Viktor Noyabrodsky",
@@ -10,14 +11,7 @@
     }
   ],
   "require": {
-    "php": "^5.5.9"
-  },
-  "autoload": {
-    "classmap": [
-      "libs/Mpdf/mpdf.php"
-    ],
-    "psr-4": {
-      "Garrinar\\Tools\\": "src"
-    }
+    "php": "^5.5",
+    "garrinar/tools-files": "^1.0.0"
   }
 }
