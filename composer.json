@@ -1,6 +1,6 @@
 {
   "name": "garrinar/tools",
-  "description": "useful helpers",
+  "description": "Some useful helpers",
   "minimum-stability": "stable",
   "license": "",
   "authors": [
@@ -10,6 +10,14 @@
     }
   ],
   "require": {
-    "php" : "^5.5.9"
+    "php": "^5.5.9"
+  },
+  "autoload": {
+    "classmap": [
+      "libs/Mpdf/mpdf.php"
+    ],
+    "psr-4": {
+      "Garrinar\\Tools\\": "src"
+    }
   }
 }
