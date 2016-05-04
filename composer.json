@@ -1,0 +1,15 @@
+{
+  "name": "garrinar/tools",
+  "description": "useful helpers",
+  "minimum-stability": "dev",
+  "license": "",
+  "authors": [
+    {
+      "name": "Viktor Noyabrodsky",
+      "email": "garrinar@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : "^5.5.9"
+  }
+}
