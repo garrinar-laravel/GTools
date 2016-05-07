@@ -1,7 +1,7 @@
 {
   "name": "garrinar/tools",
   "description": "Some useful helpers",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "",
   "authors": [
     {
