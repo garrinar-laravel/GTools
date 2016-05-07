@@ -1,8 +1,10 @@
 {
   "name": "garrinar/tools",
-  "description": "Some useful helpers",
   "minimum-stability": "dev",
-  "license": "",
+  "description": "Collection of useful tools for web development",
+  "license": "MIT",
+  "type": "metapackage",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Viktor Noyabrodsky",
