@@ -10,7 +10,7 @@
       "email": "garrinar@gmail.com"
     }
   ],
-  "require-dev": {
+  "require": {
     "garrinar/tools-files": "1.*"
   }
 }
