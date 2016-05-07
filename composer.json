@@ -4,22 +4,13 @@
   "description": "Collection of useful tools for web development",
   "license": "MIT",
   "type": "metapackage",
-  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Viktor Noyabrodsky",
       "email": "garrinar@gmail.com"
     }
   ],
-  "require": {
-    "php": "^5.5.9"
-  },
-  "autoload": {
-    "classmap": [
-      "libs/Mpdf/mpdf.php"
-    ],
-    "psr-4": {
-      "Garrinar\\Tools\\": "src"
-    }
+  "require-dev": {
+    "garrinar/tools-files": "1.*"
   }
 }
