@@ -3,7 +3,7 @@
   "minimum-stability": "dev",
   "description": "Collection of useful tools for web development",
   "license": "MIT",
-  "type": "metapackage",
+  "type": "library",
   "authors": [
     {
       "name": "Viktor Noyabrodsky",
@@ -12,5 +12,10 @@
   ],
   "require": {
     "garrinar/tools-files": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Garrinar\\Tools\\" : "src/Tools"
+    }
   }
 }
